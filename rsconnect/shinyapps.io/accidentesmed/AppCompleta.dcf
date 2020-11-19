@@ -1,0 +1,13 @@
+name: AppCompleta
+title: AppCompleta
+username:
+account: accidentesmed
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3262878
+bundleId: 3878716
+url: https://accidentesmed.shinyapps.io/AppCompleta/
+when: 1605759029.44904
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|Accidentalidad_Medellin2.csv|Agrupamiento_barrios_ordenado2.csv|festivos2021.xlsx|mod_atropello.Rdata|mod_caida_ocu.Rdata|mod_choque.Rdata|mod_otro.Rdata|mod_volcamiento.Rdata|www/car.png|www/Logo.png|Barrios de Medellin
