@@ -24,16 +24,91 @@ library(data.table)
            fluidRow(id='header1',
                     column(12,
                            HTML("
-                      <div style='text-align: center;margin-top:80px;'>
-                          <img src='car.png' width='200px'/>
-                          <strong><p style='font-size: 40px;margin-top:-5px'>Accidentalidad en Medellin</p></strong>
-                      </div>
-                      <hr style='border-top: 1px solid rgba(0, 0, 0, 0.4);'/>
-                      <strong><h1 style='text-align: center'>Video Promocional</h1></strong>
-                    "),
-                           HTML("<iframe src='https://drive.google.com/file/d/1ZpBvLsf7AbfAmTzWSIZQ5nsl-Dm3lDP_/preview' height=720 style='margin: auto;width: 100%;border: 0px;padding: 10px;display: block;'></iframe>")
+                              <div style='text-align: center;margin-top:80px;'>
+                                  <img src='car.png' width='200px'/>
+                                  <strong><p style='font-size: 40px;margin-top:-5px'>Accidentalidad en Medellin</p></strong>
+                              </div>
+                              <hr style='border-top: 1px solid rgba(0, 0, 0, 0.4);'/>
+                              <strong><h1 style='text-align: center'>Presentación</h1></strong>
+                              <p style='font-size: 20px;text-align: justify;'>En esta página web podrás encontrar información consolidada
+                                  de la accidentalidad en Medellín en los años 2014-2018, 
+                                  además de un agrupamiento categorizado por barrios y 
+                                  un modelo predictivo que tiene como objetivo tener un estimado de la accidentalidad 
+                                  en la ciudad de Medellín, este sitio web tiene un soporte documentado que se
+                                  puede consultar en el siguiente <a ref='https://santiagozuluagaa.github.io/informeTAE/'> link </a>
+                                  además todo el código de la construcción de esta aplicación web puede ser consultada
+                                  en este  <a ref='https://github.com/Huracan311/CrashMed'> repositorio </a> .
+
+                              </p>
+                              <br>
+                              <br>
+                              <p style='font-size: 20px;'>Este trabajo fue desarrollado para la asignatura Técnicas de aprendizaje
+                                  estadístico, y fue elaborado por:
+
+                                  <br>
+                                  <br>
+                              </p>
+                            "),
+                           
                     )
-           ),  
+           ), 
+           fluidRow(
+             column(2,offset = 1,align="center",
+                      HTML("
+                           <img src='girl.png' width='100%'/>
+                           <p style='text-align:center;'><strong>Doris Steffania Obando González</strong>
+                            <br>Ingeniería de sistemas
+                            <br>Ingeniería de control
+                           </p>
+                           ")
+                      
+                    ),
+             column(2,align="center",
+                    HTML("
+                           <img src='boy1.png' width='100%'/>
+                           <p style='text-align:center;'><strong>Santiago Zuluaga Ayala</strong>
+                            <br>Estadística
+                           </p>
+                           ")
+                    
+             ),
+             column(2,align="center",
+                    HTML("
+                           <img src='boy2.png' width='100%'/>
+                           <p style='text-align:center;'><strong>Daniel Hoyos González</strong>
+                            <br>Ingeniería de sistemas
+                           </p>
+                           ")
+                    
+             ),
+             column(2,align="center",
+                    HTML("
+                           <img src='boy3.png' width='100%'/>
+                           <p style='text-align:center;'><strong>Daniel Ceballos Monsalve</strong>
+                            <br>Estadística
+                            <br>Ingeniería de control
+                           </p>
+                           ")
+                    
+             ),
+             column(2,align="center",
+                    HTML("
+                           <img src='boy4.png' width='100%'/>
+                           <p style='text-align:center;'><strong>Andrés Felipe Mejía</strong>
+                            <br>Ingeniería de sistemas
+                            <br>Ingeniería de control
+                           </p>
+                           ")
+                    
+             ),
+            
+           ),
+           fluidRow(
+             column(12,
+                    HTML("<strong><h1 style='text-align: center'>Video Promocional</h1></strong>"),
+                    HTML("<iframe src='https://drive.google.com/file/d/1pwnpgMpXFBFrOY9O-iirijqRYDyC0N40/preview' height=720 style='margin: auto;width: 100%;border: 0px;padding: 10px;display: block;'></iframe>")
+                    )
+           ),
                
       ),
       tabPanel("Visualización Datos",
