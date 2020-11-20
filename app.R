@@ -35,9 +35,9 @@ library(data.table)
                                   además de un agrupamiento categorizado por barrios y 
                                   un modelo predictivo que tiene como objetivo tener un estimado de la accidentalidad 
                                   en la ciudad de Medellín, este sitio web tiene un soporte documentado que se
-                                  puede consultar en el siguiente <a ref='https://santiagozuluagaa.github.io/informeTAE/'> link </a>
+                                  puede consultar en el siguiente <a href='https://santiagozuluagaa.github.io/informeTAE/'> link </a>
                                   además todo el código de la construcción de esta aplicación web puede ser consultada
-                                  en este  <a ref='https://github.com/Huracan311/CrashMed'> repositorio </a> .
+                                  en este  <a href='https://github.com/Huracan311/CrashMed'> repositorio </a> .
 
                               </p>
                               <br>

@@ -5,8 +5,8 @@ account: accidentesmed
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3262914
-bundleId: 3882334
+bundleId: 3882822
 url: https://accidentesmed.shinyapps.io/AppCompleta2/
-when: 1605823330.12711
+when: 1605832878.34094
 asMultiple: FALSE
 asStatic: FALSE
